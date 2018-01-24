@@ -1,0 +1,98 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  background-color:#f9fafc;
+}
+
+#chirp {
+  float:left;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+nav {
+  color: #69696a;
+  float:right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+a, a:link , a:visited{
+  color: #69696a;
+  text-decoration: none;
+}
+
+.search {
+  padding-right: 15px;
+}
+
+h1 {
+  clear:both;
+  margin: 30px;
+}
+
+.content {
+  padding-top: 150px;
+}
+
+#circle1 {
+  background-color:rgba(247,136,167,0.6);
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  position:absolute;
+  top: 200px;
+  right: 100px;
+
+}
+
+#circle2 {
+  background-color:rgba(207,130,213,0.6);
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  position:absolute;
+  top: 215px;
+  right:50px
+}
+
+#circle3 {
+  background-color:rgba(247,193,162,0.7);
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  position: absolute;
+  top: 300px;
+  right: 30px;
+}
+
+
+#info {
+  color: #69696a;
+  border-left: 2px solid #69696a;
+  margin: 30px;
+  padding-left: 15px;
+  width:50%;
+}
+
+
+#scrollDiv {
+  text-align:center;
+  padding-top:120px;
+}
+
+ #scroll, #hire {
+  padding: 10px 15px;
+  border-radius: 15px;
+  color:#f9fafc;
+  background-color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
